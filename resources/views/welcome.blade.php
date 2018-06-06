@@ -11,7 +11,7 @@
     <title>Foto Darke</title>
 
     <!--common style-->
-    <link href='http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'>
 
     <!-- inject:css -->
     <link rel="stylesheet" href="{{asset('design/css/bootstrap.min.css')}}">
@@ -136,7 +136,6 @@
     </div>
 
     <!-- inject:js -->
-    <script src="{{asset('js/app.js')}}"></script>
     <script src="{{asset('design/js/modernizr.js')}}"></script>
     <script src="{{asset('design/jquery/jquery-1.10.2.min.js')}}"></script>
     <script src="{{asset('design/js/bootstrap.min.js')}}"></script>
