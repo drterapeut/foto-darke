@@ -76,35 +76,12 @@
             </div>
         </header>
         <!--header end-->
-
-        <!--hero section-->
-        <div class="banner-state text-center vertical-align banner-19">
-            <div class="container-mid">
-                <div class="container">
-                    <div class="banner-title" >
-                        <!--<h1 style="" class="text-uppercase ls-20"> Foto Darke</h1>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--hero section-->
-
         <!--body content start-->
-        <section class="body-content">
+        <section class="body-content page-content ">
             <!--promo-->
-            <div class="full-width promo-box dark-bg ">
                 <div class="container">
-                    <div class="col-md-12">
-                        <div class="promo-info">
-                            <span class="light-txt text-uppercase m-top-0">Svida Vam se moj rad? </span>
-                            <h3 class="light-txt">Stojim <span class="theme-color">na raspolaganju </span> za poslovnu suradnju!</h3>
-                        </div>
-                        <div class="promo-btn">
-                            <a href="#" class="btn btn-medium  btn-light-solid  text-uppercase">KONTAKT</a>
-                        </div>
-                    </div>
+                        @yield('content')
                 </div>
-            </div>
             <!--promo-->
         </section>
         <!--body content end-->
