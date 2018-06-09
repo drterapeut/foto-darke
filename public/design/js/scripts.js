@@ -7,7 +7,7 @@
     $document = $(document);
     $body = $("body");
 
-    
+
     /*==============================================
      Pre loader init
      ===============================================*/
@@ -33,7 +33,7 @@
         if (window.devicePixelRatio > 1) {
             $(".retina").imagesLoaded(function () {
                 $(".retina").each(function () {
-                    var src = $(this).attr("src").replace(".", "@2x.");
+                    var src = $(this).attr("src").replace(".", ".");
                     var h = $(this).height();
                     $(this).attr("src", src).css({height: h, width: "auto"});
                 });
@@ -207,7 +207,7 @@
                     $portfolioGeneral.isotope("layout");
                 }, 400);
             });
-            
+
             $portfolioMasonry.imagesLoaded().done(function() {
                 setTimeout(function() {
                     $portfolioMasonry.isotope("layout");

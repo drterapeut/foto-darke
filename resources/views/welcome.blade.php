@@ -39,84 +39,87 @@
         <div class="tb-preloader-wave"></div>
     </div>
     <!-- preloader end -->
-
-<div class="wrapper">
-
+    <div class="wrapper">
         <!--header start-->
         <header class="l-header l-header_overlay">
-
-            <div id="sticky-wrapper" class="l-navbar-wrapper" style="height: 200px;"><div class="l-navbar l-navbar_expand l-navbar_t-light l-navbar_s-center js-navbar-sticky" style="width: 1110px;">
-                <div class="container">
-                    <nav class="menuzord js-primary-navigation menuzord-responsive" role="navigation" aria-label="Primary Navigation"><a href="javascript:void(0)" class="showhide" style=""><em></em><em></em><em></em></a>
-
+            <div class="l-navbar l-navbar_expand l-navbar_t-light-trans js-navbar-sticky">
+                <div class="container-fluid">
+                    <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
                         <!--logo start-->
-                        <a href="index.html" class="logo-brand" style="height: 100px;">
-                            <img class="retina" src="{{asset('assets/img/logo.png')}}" alt="Massive">
+                        <a href="#home" class="logo-brand">
+                            <img  class="" src="{{asset('assets/img/logo.png')}}" alt="Vice Trading">
                         </a>
                         <!--logo end-->
 
                         <!--mega menu start-->
-                        <ul class="menuzord-menu menuzord-right c-nav_s-standard menuzord-indented scrollable" style="max-height: 400px;">
+                        <ul class="menuzord-menu pull-right op-nav c-nav_s-standard menuzord-indented scrollable" style="display: inline-block !important;">
                             <li class="active">
-                                <a href="#">Home<span class="indicator"></span></a>
+                                <a href="#home">Pocetna</a>
                             </li>
-
                             <li>
-                                <a href="javascript:void(0)"><i class="fa fa-search"></i> Search<span class="indicator"></span></a>
-                                <div class="megamenu megamenu-quarter-width navbar-search" style="right: 0px; display: none;">
-                                    <form role="searchform">
-                                        <input type="text" class="form-control" placeholder="Search Here">
-                                    </form>
-                                </div>
+                                <a href="">Galerije</a>
                             </li>
-                        <li class="scrollable-fix"></li>
-                    </ul>
+                            <li>
+                                <a href="">O Meni</a>
+                            </li>
+                            <li>
+                                <a href="">Kontakt</a>
+                            </li>
+                        </ul>
                         <!--mega menu end-->
-
                     </nav>
                 </div>
-            </div></div>
-
+            </div>
         </header>
         <!--header end-->
 
         <!--hero section-->
-        <div class="banner-state text-center vertical-align banner-19 height-600">
-
+        <div class="banner-state text-center vertical-align banner-19">
+            <div class="container-mid">
+                <div class="container">
+                    <div class="banner-title" >
+                        <!--<h1 style="" class="text-uppercase ls-20"> Foto Darke</h1>-->
+                    </div>
+                </div>
+            </div>
         </div>
         <!--hero section-->
 
         <!--body content start-->
         <section class="body-content">
-
-            <!--portfolio-->
-            <div class=" page-content">
+            <!--promo-->
+            <div class="full-width promo-box dark-bg ">
                 <div class="container">
-                    <div class="row">
-
+                    <div class="col-md-12">
+                        <div class="promo-info">
+                            <span class="light-txt text-uppercase m-top-0">Svida Vam se moj rad? </span>
+                            <h3 class="light-txt">Stojim <span class="theme-color">na raspolaganju </span> za poslovnu suradnju!</h3>
+                        </div>
+                        <div class="promo-btn">
+                            <a href="#" class="btn btn-medium  btn-light-solid  text-uppercase">KONTAKT</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!--portfolio-->
-
-
+            <!--promo-->
         </section>
         <!--body content end-->
 
         <!--footer start -->
         <footer id="footer" class="gray footer-3">
             <div class="container">
-
                 <div class="f-logo-center">
-                    <a href="index.html" class="footer-logo" >
-                        <img class="retina" style="width: 70px" src="{{asset('assets/img/logo.png')}}" alt="">
+                    <a href="" class="footer-logo">
+                        <img class="retina" src="{{asset('assets/img/logo.png')}}" alt="" style="height: 52px; width: auto;">
                     </a>
                 </div>
                 <!--<div class="sub-title">THE ULTIMATE THEME WITH MASSIVE COLLECTION</div>-->
-
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{ Carbon\Carbon::now()->year }} - Foto Darke
+                    </div>
+                    <div class="copyright-sub-title text-uppercase">
+                        “You don’t take a photograph. You ask quietly to borrow it.”
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -128,8 +131,6 @@
                         <a href="#"><i class="fa fa-behance"></i></a>
                     </div>
                 </div>
-
-
             </div>
         </footer>
         <!--footer end-->
