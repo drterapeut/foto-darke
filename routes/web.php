@@ -22,3 +22,7 @@ Route::get('/galleries', function () {
 Route::get('/galleries/animals', function () {
     return view('gallery.animals.index');
 });
+
+Route::get('/galleries/concerts', function () {
+    return view('gallery.concerts.index');
+});

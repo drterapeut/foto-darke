@@ -55,7 +55,7 @@
                         <ul class="menuzord-menu pull-right op-nav c-nav_s-standard menuzord-indented scrollable" style="display: inline-block !important;">
                             <li class="{{ (Request::is('/') ? 'active' : '') }}">
                                 <a href="{{ url('/') }}">
-                                    Home
+                                    Pocetna
                                 </a>
                             </li>
                             <li class="{{ (Request::is('galleries') ? 'active' : '') }}">
