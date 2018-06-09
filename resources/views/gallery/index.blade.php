@@ -9,11 +9,11 @@
                 <img src="{{asset('assets/img/portfolio/zivotinje/01.jpg')}}" alt="">
                 <div class="portfolio-hover">
                     <div class="action-btn">
-                        <a href="#" class="" title="lightbox view"> <i class="icon-basic_magnifier"></i>
+                        <a href="{{ url('/galleries/animals') }}" class="" title="lightbox view"> <i class="icon-basic_magnifier"></i>
                         </a>
                     </div>
                     <div class="portfolio-description">
-                        <h4><a href="#" class="" title="lightbox view">Zivotinje</a></h4>
+                        <h4><a href="{{ url('/galleries/animals') }}" class="" title="lightbox view">Zivotinje</a></h4>
                         </p>
                     </div>
                 </div>

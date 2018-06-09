@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/galleries', function () {
     return view('gallery.index');
 });
+
+Route::get('/galleries/animals', function () {
+    return view('gallery.animals.index');
+});
